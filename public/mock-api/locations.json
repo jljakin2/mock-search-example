@@ -1,0 +1,758 @@
+[
+  {
+    "id": "loc001",
+    "name": "Central Park",
+    "address": "Central Park, New York, NY",
+    "city": "New York",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -73.965355,
+      "latitude": 40.782865
+    },
+    "description": "An urban park in New York City"
+  },
+  {
+    "id": "loc002",
+    "name": "Empire State Building",
+    "address": "350 5th Ave, New York, NY 10118",
+    "city": "New York",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -73.9856644,
+      "latitude": 40.7484405
+    },
+    "description": "A 102-story skyscraper in Midtown Manhattan"
+  },
+  {
+    "id": "loc003",
+    "name": "Golden Gate Bridge",
+    "address": "Golden Gate Bridge, San Francisco, CA",
+    "city": "San Francisco",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -122.4785528,
+      "latitude": 37.8199286
+    },
+    "description": "A suspension bridge spanning the Golden Gate"
+  },
+  {
+    "id": "loc004",
+    "name": "Pike Place Market",
+    "address": "85 Pike St, Seattle, WA 98101",
+    "city": "Seattle",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -122.3401844,
+      "latitude": 47.6097235
+    },
+    "description": "A public market overlooking the Elliott Bay waterfront"
+  },
+  {
+    "id": "loc005",
+    "name": "The Bean (Cloud Gate)",
+    "address": "Millennium Park, Chicago, IL 60602",
+    "city": "Chicago",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -87.6233776,
+      "latitude": 41.8826578
+    },
+    "description": "A public sculpture in Millennium Park"
+  },
+  {
+    "id": "loc006",
+    "name": "The Ritz-Carlton",
+    "address": "1150 22nd St NW, Washington, DC 20037",
+    "city": "Washington",
+    "type": "hotel",
+    "coordinates": {
+      "longitude": -77.0514723,
+      "latitude": 38.9063096
+    },
+    "description": "A luxury hotel in Washington DC"
+  },
+  {
+    "id": "loc007",
+    "name": "Millennium Biltmore Hotel",
+    "address": "506 S Grand Ave, Los Angeles, CA 90071",
+    "city": "Los Angeles",
+    "type": "hotel",
+    "coordinates": {
+      "longitude": -118.253328,
+      "latitude": 34.0499493
+    },
+    "description": "A historic luxury hotel"
+  },
+  {
+    "id": "loc008",
+    "name": "Space Needle",
+    "address": "400 Broad St, Seattle, WA 98109",
+    "city": "Seattle",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -122.3493,
+      "latitude": 47.6205
+    },
+    "description": "Iconic observation tower"
+  },
+  {
+    "id": "loc009",
+    "name": "The Cheesecake Factory",
+    "address": "609 Hennepin Ave, Minneapolis, MN 55403",
+    "city": "Minneapolis",
+    "type": "restaurant",
+    "coordinates": {
+      "longitude": -93.2873,
+      "latitude": 44.9777
+    },
+    "description": "Popular restaurant chain known for desserts"
+  },
+  {
+    "id": "loc010",
+    "name": "Alamo",
+    "address": "300 Alamo Plaza, San Antonio, TX 78205",
+    "city": "San Antonio",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -98.4861,
+      "latitude": 29.426
+    },
+    "description": "Historic Spanish mission and fortress"
+  },
+  {
+    "id": "loc011",
+    "name": "French Quarter",
+    "address": "French Quarter, New Orleans, LA",
+    "city": "New Orleans",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -90.0644,
+      "latitude": 29.9584
+    },
+    "description": "Historic neighborhood known for vibrant nightlife"
+  },
+  {
+    "id": "loc012",
+    "name": "Grand Canyon",
+    "address": "Grand Canyon National Park, AZ",
+    "city": "Grand Canyon Village",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -112.1401,
+      "latitude": 36.0544
+    },
+    "description": "Steep-sided canyon carved by the Colorado River"
+  },
+  {
+    "id": "loc013",
+    "name": "Yosemite Valley",
+    "address": "Yosemite National Park, CA 95389",
+    "city": "Yosemite",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -119.5936,
+      "latitude": 37.7455
+    },
+    "description": "Glacial valley known for its stunning views"
+  },
+  {
+    "id": "loc014",
+    "name": "The Standard Hotel",
+    "address": "550 S Flower St, Los Angeles, CA 90071",
+    "city": "Los Angeles",
+    "type": "hotel",
+    "coordinates": {
+      "longitude": -118.2546,
+      "latitude": 34.0488
+    },
+    "description": "Modern luxury hotel with rooftop pool"
+  },
+  {
+    "id": "loc015",
+    "name": "Google Headquarters",
+    "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+    "city": "Mountain View",
+    "type": "business",
+    "coordinates": {
+      "longitude": -122.0843,
+      "latitude": 37.4223
+    },
+    "description": "Main campus of Google"
+  },
+  {
+    "id": "loc016",
+    "name": "Pike's Place Chowder",
+    "address": "1530 Post Alley, Seattle, WA 98101",
+    "city": "Seattle",
+    "type": "restaurant",
+    "coordinates": {
+      "longitude": -122.3408,
+      "latitude": 47.6097
+    },
+    "description": "Famous seafood restaurant known for chowder"
+  },
+  {
+    "id": "loc017",
+    "name": "Katz's Delicatessen",
+    "address": "205 E Houston St, New York, NY 10002",
+    "city": "New York",
+    "type": "restaurant",
+    "coordinates": {
+      "longitude": -73.9877,
+      "latitude": 40.7223
+    },
+    "description": "Famous deli known for pastrami sandwiches"
+  },
+  {
+    "id": "loc018",
+    "name": "Walt Disney World",
+    "address": "Orlando, FL 32830",
+    "city": "Orlando",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -81.5639,
+      "latitude": 28.3852
+    },
+    "description": "Entertainment complex and theme parks"
+  },
+  {
+    "id": "loc019",
+    "name": "Fisherman's Wharf",
+    "address": "Beach Street & The Embarcadero, San Francisco, CA 94133",
+    "city": "San Francisco",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -122.4169,
+      "latitude": 37.808
+    },
+    "description": "Popular tourist attraction with seafood restaurants and shops"
+  },
+  {
+    "id": "loc020",
+    "name": "Boston Public Garden",
+    "address": "4 Charles St, Boston, MA 02116",
+    "city": "Boston",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -71.0698,
+      "latitude": 42.3544
+    },
+    "description": "Historic public park with swan boats and botanical gardens"
+  },
+  {
+    "id": "loc021",
+    "name": "Bellagio Hotel & Casino",
+    "address": "3600 S Las Vegas Blvd, Las Vegas, NV 89109",
+    "city": "Las Vegas",
+    "type": "hotel",
+    "coordinates": {
+      "longitude": -115.177,
+      "latitude": 36.1129
+    },
+    "description": "Luxury resort known for its fountain show"
+  },
+  {
+    "id": "loc022",
+    "name": "Franklin Barbecue",
+    "address": "900 E 11th St, Austin, TX 78702",
+    "city": "Austin",
+    "type": "restaurant",
+    "coordinates": {
+      "longitude": -97.7315,
+      "latitude": 30.2701
+    },
+    "description": "Famous barbecue restaurant with long lines"
+  },
+  {
+    "id": "loc023",
+    "name": "Gateway Arch",
+    "address": "11 N 4th St, St. Louis, MO 63102",
+    "city": "St. Louis",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -90.1848,
+      "latitude": 38.6247
+    },
+    "description": "630-foot stainless steel monument"
+  },
+  {
+    "id": "loc024",
+    "name": "Griffith Observatory",
+    "address": "2800 E Observatory Rd, Los Angeles, CA 90027",
+    "city": "Los Angeles",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -118.3003,
+      "latitude": 34.1184
+    },
+    "description": "Observatory with views of Los Angeles and exhibits"
+  },
+  {
+    "id": "loc025",
+    "name": "NASA Johnson Space Center",
+    "address": "2101 E NASA Pkwy, Houston, TX 77058",
+    "city": "Houston",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -95.093,
+      "latitude": 29.553
+    },
+    "description": "Space exploration facility and visitor center"
+  },
+  {
+    "id": "loc026",
+    "name": "Apple Park Visitor Center",
+    "address": "10600 N Tantau Ave, Cupertino, CA 95014",
+    "city": "Cupertino",
+    "type": "business",
+    "coordinates": {
+      "longitude": -122.0095,
+      "latitude": 37.3349
+    },
+    "description": "Visitor center at Apple's headquarters"
+  },
+  {
+    "id": "loc027",
+    "name": "Everglades National Park",
+    "address": "40001 State Road 9336, Homestead, FL 33034",
+    "city": "Homestead",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -80.9331,
+      "latitude": 25.3952
+    },
+    "description": "Tropical wetlands and wildlife preserve"
+  },
+  {
+    "id": "loc028",
+    "name": "Bern's Steak House",
+    "address": "1208 S Howard Ave, Tampa, FL 33606",
+    "city": "Tampa",
+    "type": "restaurant",
+    "coordinates": {
+      "longitude": -82.4828,
+      "latitude": 27.9325
+    },
+    "description": "Upscale steakhouse with enormous wine collection"
+  },
+  {
+    "id": "loc029",
+    "name": "Mount Rushmore",
+    "address": "13000 SD-244, Keystone, SD 57751",
+    "city": "Keystone",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -103.4668,
+      "latitude": 43.8791
+    },
+    "description": "Mountain sculpture featuring four US presidents"
+  },
+  {
+    "id": "loc030",
+    "name": "Yellowstone National Park",
+    "address": "Yellowstone National Park, WY 82190",
+    "city": "Yellowstone",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -110.5885,
+      "latitude": 44.428
+    },
+    "description": "National park with geysers and wildlife"
+  },
+  {
+    "id": "loc031",
+    "name": "Times Square",
+    "address": "Manhattan, NY 10036",
+    "city": "New York",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -73.9855,
+      "latitude": 40.758
+    },
+    "description": "Major commercial intersection and entertainment center"
+  },
+  {
+    "id": "loc032",
+    "name": "Amazon Spheres",
+    "address": "2111 7th Ave, Seattle, WA 98121",
+    "city": "Seattle",
+    "type": "business",
+    "coordinates": {
+      "longitude": -122.34,
+      "latitude": 47.6159
+    },
+    "description": "Three spherical conservatories that are part of Amazon headquarters"
+  },
+  {
+    "id": "loc033",
+    "name": "Fenway Park",
+    "address": "4 Jersey St, Boston, MA 02215",
+    "city": "Boston",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -71.0972,
+      "latitude": 42.3467
+    },
+    "description": "Historic baseball park, home of the Boston Red Sox"
+  },
+  {
+    "id": "loc034",
+    "name": "Great Smoky Mountains National Park",
+    "address": "107 Park Headquarters Rd, Gatlinburg, TN 37738",
+    "city": "Gatlinburg",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -83.5369,
+      "latitude": 35.6532
+    },
+    "description": "America's most visited national park with diverse wildlife"
+  },
+  {
+    "id": "loc035",
+    "name": "Bourbon Street",
+    "address": "Bourbon St, New Orleans, LA 70116",
+    "city": "New Orleans",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -90.0662,
+      "latitude": 29.9584
+    },
+    "description": "Famous street in the French Quarter known for nightlife"
+  },
+  {
+    "id": "loc036",
+    "name": "Alcatraz Island",
+    "address": "San Francisco, CA 94133",
+    "city": "San Francisco",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -122.423,
+      "latitude": 37.827
+    },
+    "description": "Historic federal prison on an island in San Francisco Bay"
+  },
+  {
+    "id": "loc037",
+    "name": "Facebook Headquarters",
+    "address": "1 Hacker Way, Menlo Park, CA 94025",
+    "city": "Menlo Park",
+    "type": "business",
+    "coordinates": {
+      "longitude": -122.1484,
+      "latitude": 37.4848
+    },
+    "description": "Meta's main campus"
+  },
+  {
+    "id": "loc038",
+    "name": "Statue of Liberty",
+    "address": "New York, NY 10004",
+    "city": "New York",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -74.0445,
+      "latitude": 40.6892
+    },
+    "description": "Iconic copper statue on Liberty Island"
+  },
+  {
+    "id": "loc039",
+    "name": "The French Laundry",
+    "address": "6640 Washington St, Yountville, CA 94599",
+    "city": "Yountville",
+    "type": "restaurant",
+    "coordinates": {
+      "longitude": -122.4041,
+      "latitude": 38.4025
+    },
+    "description": "Famous three-Michelin-starred restaurant"
+  },
+  {
+    "id": "loc040",
+    "name": "Niagara Falls",
+    "address": "Niagara Falls, NY 14303",
+    "city": "Niagara Falls",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -79.0712,
+      "latitude": 43.0828
+    },
+    "description": "Group of three waterfalls at the southern end of Niagara Gorge"
+  },
+  {
+    "id": "loc041",
+    "name": "Millennium Park",
+    "address": "201 E Randolph St, Chicago, IL 60602",
+    "city": "Chicago",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -87.6237,
+      "latitude": 41.8826
+    },
+    "description": "Public park featuring the Cloud Gate sculpture ('The Bean')"
+  },
+  {
+    "id": "loc042",
+    "name": "In-N-Out Burger",
+    "address": "9149 S Sepulveda Blvd, Los Angeles, CA 90045",
+    "city": "Los Angeles",
+    "type": "restaurant",
+    "coordinates": {
+      "longitude": -118.3962,
+      "latitude": 33.9534
+    },
+    "description": "Popular West Coast fast food chain"
+  },
+  {
+    "id": "loc043",
+    "name": "Kennedy Space Center",
+    "address": "Space Commerce Way, Merritt Island, FL 32953",
+    "city": "Merritt Island",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -80.6817,
+      "latitude": 28.5728
+    },
+    "description": "NASA's launch headquarters and visitor complex"
+  },
+  {
+    "id": "loc044",
+    "name": "Microsoft Campus",
+    "address": "1 Microsoft Way, Redmond, WA 98052",
+    "city": "Redmond",
+    "type": "business",
+    "coordinates": {
+      "longitude": -122.143,
+      "latitude": 47.6423
+    },
+    "description": "Microsoft Corporation headquarters"
+  },
+  {
+    "id": "loc045",
+    "name": "Metropolitan Museum of Art",
+    "address": "1000 5th Ave, New York, NY 10028",
+    "city": "New York",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -73.9632,
+      "latitude": 40.7794
+    },
+    "description": "One of the world's largest and finest art museums"
+  },
+  {
+    "id": "loc046",
+    "name": "Liberty Bell",
+    "address": "526 Market St, Philadelphia, PA 19106",
+    "city": "Philadelphia",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -75.15,
+      "latitude": 39.9497
+    },
+    "description": "Iconic symbol of American independence"
+  },
+  {
+    "id": "loc047",
+    "name": "Mall of America",
+    "address": "60 E Broadway, Bloomington, MN 55425",
+    "city": "Bloomington",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -93.2623,
+      "latitude": 44.8548
+    },
+    "description": "Largest shopping mall in the United States"
+  },
+  {
+    "id": "loc048",
+    "name": "Wrigley Field",
+    "address": "1060 W Addison St, Chicago, IL 60613",
+    "city": "Chicago",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -87.6553,
+      "latitude": 41.9484
+    },
+    "description": "Historic baseball park, home of the Chicago Cubs"
+  },
+  {
+    "id": "loc049",
+    "name": "Zion National Park",
+    "address": "Zion National Park, UT 84737",
+    "city": "Springdale",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -113.0263,
+      "latitude": 37.2982
+    },
+    "description": "Canyon park known for red cliffs and emerald pools"
+  },
+  {
+    "id": "loc050",
+    "name": "Willis Tower",
+    "address": "233 S Wacker Dr, Chicago, IL 60606",
+    "city": "Chicago",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -87.6359,
+      "latitude": 41.8789
+    },
+    "description": "108-story skyscraper with observation deck"
+  },
+  {
+    "id": "loc051",
+    "name": "Smithsonian National Air and Space Museum",
+    "address": "600 Independence Ave SW, Washington, DC 20560",
+    "city": "Washington",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -77.02,
+      "latitude": 38.8875
+    },
+    "description": "Museum of aviation and space exploration"
+  },
+  {
+    "id": "loc052",
+    "name": "Pike & Rose",
+    "address": "11580 Old Georgetown Rd, North Bethesda, MD 20852",
+    "city": "North Bethesda",
+    "type": "business",
+    "coordinates": {
+      "longitude": -77.1207,
+      "latitude": 39.0478
+    },
+    "description": "Mixed-use development with shops and restaurants"
+  },
+  {
+    "id": "loc053",
+    "name": "Lincoln Memorial",
+    "address": "2 Lincoln Memorial Cir NW, Washington, DC 20002",
+    "city": "Washington",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -77.0501,
+      "latitude": 38.8893
+    },
+    "description": "National monument honoring Abraham Lincoln"
+  },
+  {
+    "id": "loc054",
+    "name": "Mount St. Helens",
+    "address": "Mount St. Helens National Volcanic Monument, WA",
+    "city": "Castle Rock",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -122.1956,
+      "latitude": 46.1914
+    },
+    "description": "Active stratovolcano in the Cascade Range"
+  },
+  {
+    "id": "loc055",
+    "name": "Nashville Broadway",
+    "address": "Broadway, Nashville, TN 37201",
+    "city": "Nashville",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -86.7816,
+      "latitude": 36.1627
+    },
+    "description": "Entertainment district with honky-tonk bars"
+  },
+  {
+    "id": "loc056",
+    "name": "Alinea",
+    "address": "1723 N Halsted St, Chicago, IL 60614",
+    "city": "Chicago",
+    "type": "restaurant",
+    "coordinates": {
+      "longitude": -87.648,
+      "latitude": 41.9136
+    },
+    "description": "Three-Michelin-starred restaurant known for molecular gastronomy"
+  },
+  {
+    "id": "loc057",
+    "name": "Adobe Headquarters",
+    "address": "345 Park Ave, San Jose, CA 95110",
+    "city": "San Jose",
+    "type": "business",
+    "coordinates": {
+      "longitude": -121.8949,
+      "latitude": 37.3301
+    },
+    "description": "Adobe Inc. corporate headquarters"
+  },
+  {
+    "id": "loc058",
+    "name": "Antelope Canyon",
+    "address": "Navajo Tribal Park, Page, AZ 86040",
+    "city": "Page",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -111.3743,
+      "latitude": 36.8619
+    },
+    "description": "Slot canyon on Navajo land known for light beams"
+  },
+  {
+    "id": "loc059",
+    "name": "Miami Beach",
+    "address": "Miami Beach, FL 33139",
+    "city": "Miami Beach",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -80.13,
+      "latitude": 25.7907
+    },
+    "description": "Barrier island known for beaches and Art Deco architecture"
+  },
+  {
+    "id": "loc060",
+    "name": "The High Line",
+    "address": "New York, NY 10011",
+    "city": "New York",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -74.0048,
+      "latitude": 40.748
+    },
+    "description": "Elevated linear park built on a former railroad"
+  },
+  {
+    "id": "loc061",
+    "name": "Twitter Headquarters",
+    "address": "1355 Market St, San Francisco, CA 94103",
+    "city": "San Francisco",
+    "type": "business",
+    "coordinates": {
+      "longitude": -122.417,
+      "latitude": 37.7765
+    },
+    "description": "X Corp (formerly Twitter) headquarters"
+  },
+  {
+    "id": "loc062",
+    "name": "Painted Ladies",
+    "address": "Steiner St, San Francisco, CA 94117",
+    "city": "San Francisco",
+    "type": "attraction",
+    "coordinates": {
+      "longitude": -122.4321,
+      "latitude": 37.7764
+    },
+    "description": "Row of Victorian houses facing Alamo Square"
+  },
+  {
+    "id": "loc063",
+    "name": "The NoMad Hotel",
+    "address": "1170 Broadway, New York, NY 10001",
+    "city": "New York",
+    "type": "hotel",
+    "coordinates": {
+      "longitude": -73.9882,
+      "latitude": 40.7449
+    },
+    "description": "Luxury hotel in a restored Beaux-Arts building"
+  }
+]

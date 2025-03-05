@@ -14,17 +14,9 @@ export default function Home() {
 
   const [selectedLocations, setSelectedLocations] = useState<Location[]>([]);
 
-  const handleSelectLocation = (location: Location) => {
-    if (!selectedLocations.some((loc) => loc.id === location.id)) {
-      setSelectedLocations((prev) => [location, ...prev]);
-    }
-  };
+  const handleSelectLocation = (location) => {};
 
-  const handleRemoveLocation = (locationId: string) => {
-    setSelectedLocations((prev) =>
-      prev.filter((location) => location.id !== locationId)
-    );
-  };
+  const handleRemoveLocation = (locationId) => {};
 
   const selectedCount = selectedLocations.length;
 
@@ -35,13 +27,7 @@ export default function Home() {
           Location Finder
         </h1>
 
-        <SearchInput
-          searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
-          setSearchResults={setSearchResults}
-          setIsLoading={setIsLoading}
-          setError={setError}
-        />
+        <SearchInput />
 
         {selectedCount > 0 && (
           <div className="mt-4 mb-2 flex items-center justify-between">
@@ -58,20 +44,12 @@ export default function Home() {
         )}
 
         <div className="mt-4">
-          <SearchResults
-            results={searchResults}
-            isLoading={isLoading}
-            error={error}
-            onSelectLocation={handleSelectLocation}
-          />
+          <SearchResults results={searchResults} />
         </div>
       </div>
 
       <div className="flex-1 h-full relative">
-        <MapDisplay
-          selectedLocations={selectedLocations}
-          onRemoveLocation={handleRemoveLocation}
-        />
+        <MapDisplay />
       </div>
     </main>
   );

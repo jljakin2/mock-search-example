@@ -39,22 +39,6 @@ export default function SearchResults({
     );
   }
 
-  // Get type badge color based on location type
-  const getTypeBadgeClass = (type: string): string => {
-    switch (type) {
-      case "restaurant":
-        return "bg-red-100 text-red-600";
-      case "hotel":
-        return "bg-blue-100 text-blue-600";
-      case "attraction":
-        return "bg-green-100 text-green-600";
-      case "business":
-        return "bg-yellow-100 text-yellow-600";
-      default:
-        return "bg-gray-100 text-gray-600";
-    }
-  };
-
   return (
     <div className="border border-gray-200 rounded-md overflow-hidden">
       {results.map((location) => (
@@ -65,11 +49,7 @@ export default function SearchResults({
         >
           <div className="flex justify-between items-start">
             <h3 className="font-bold text-gray-800">{location.name}</h3>
-            <span
-              className={`inline-block text-xs py-1 px-2 rounded ${getTypeBadgeClass(
-                location.type
-              )}`}
-            >
+            <span className="inline-block text-xs py-1 px-2 rounded">
               {location.type}
             </span>
           </div>

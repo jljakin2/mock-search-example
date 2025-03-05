@@ -22,10 +22,8 @@ export default function SearchInput({
 }: SearchInputProps) {
   const debouncedQuery = useDebounce(searchQuery, 500);
 
-  // Handle the actual search API call
   const performSearch = useCallback(
     async (query: string) => {
-      // Don't search if query is empty
       if (!query.trim()) {
         setSearchResults([]);
         return;
@@ -49,7 +47,6 @@ export default function SearchInput({
     [setSearchResults, setIsLoading, setError]
   );
 
-  // Trigger the search when the debounced query changes
   useEffect(() => {
     performSearch(debouncedQuery);
   }, [debouncedQuery, performSearch]);
@@ -57,7 +54,6 @@ export default function SearchInput({
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const query = e.target.value;
     setSearchQuery(query);
-    // No need to manually call search here, the useEffect will handle it
   };
 
   return (

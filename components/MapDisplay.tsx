@@ -61,24 +61,7 @@ export default function MapDisplay({
         const el = document.createElement("div");
         el.className =
           "w-6 h-6 rounded-full border-2 border-white cursor-pointer shadow-md";
-
-        // Style marker based on location type
-        switch (location.type) {
-          case "restaurant":
-            el.style.backgroundColor = "#e74c3c";
-            break;
-          case "hotel":
-            el.style.backgroundColor = "#3498db";
-            break;
-          case "attraction":
-            el.style.backgroundColor = "#2ecc71";
-            break;
-          case "business":
-            el.style.backgroundColor = "#f39c12";
-            break;
-          default:
-            el.style.backgroundColor = "#9b59b6";
-        }
+        el.style.backgroundColor = "#3498db";
 
         // Create and add marker
         const marker = new mapboxgl.Marker(el)
